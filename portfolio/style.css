@@ -484,6 +484,7 @@ nav .fa-solid{
     }
     .contact-left, .contact-right{
         font-size: 14px;
+        flex-basis: 100%;
     }
 
     .work-list{
