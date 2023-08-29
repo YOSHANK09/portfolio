@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8e86e9670f.js" crossorigin="anonymous"></script>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="LOGO" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        <div class="start">
+            <div class="header-text">
+                <p>Aspiring Developer</p>
+                <h1>Hi, I'm <span>Yoshank</span> <br> From India</h1>
+            </div>
+            <img src="images/main.png" alt="main user" class="pics">
+        </div>
+        </div>
+    </div>
+
+    <!-- ------------------------------------------------------------ABOUT----------------------------------------------------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="USER" class="user">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>   
+                    <br><p>Hii!<br>
+                        Myself Yoshank a student at Chitkara University, Punjab
+                        in B.E.course in CSE (3nd year).
+                        <br>
+                        <br>
+                        <strong>HOBBIES -:</strong>
+                        <br>
+                        <br>
+                        I love playing Cricket.<br>
+                        I prefer listening music during leisure.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java Developer</span><br>Java Developer</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Java Developer</span><br>Learning Java </li>
+                            <li><span>Web Development</span><br>Working and Planning a Project</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Learning Java </li>
+                            <li><span>2020 - 2021</span><br>XII from S.D.V.M. Pnp. [ CBSE : 93.2% ]</li>
+                            <li><span>2018 - 2019</span><br>X from M.A.P.S. Smk. [ CBSE : 85.2% ]</li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------------------------------SERVICES------------------------------------------------------ -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web Developer</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo cupiditate nihil, iusto porro
+                        quasi nam. Atque officiis temporibus odio aut illo ipsam architecto ullam voluptatem.</p>
+                    <a href="#" class="Learn"><strong>Learn more</strong></a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Java Developer</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo cupiditate nihil, iusto porro
+                        quasi nam. Atque officiis temporibus odio aut illo ipsam architecto ullam voluptatem.</p>
+                    <a href="#" class="Learn"><strong>Learn more</strong></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ------------------------------------------------------------PORTFOLIO------------------------------------------------------------ -->
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-3.png" alt="Work 3">
+                    <div class="layer">
+                        <h3>Online Shopping Store</h3>
+                        <p>
+                            All items at one place with best possible discounts and offers.
+                            Download it from play store or App store.
+                        </p>
+                        <a href="C:\Users\yosha\Desktop\PROJECTS\ecommerce\index.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-1.png" alt="Work 1">
+                    <div class="layer">
+                        <h3>Social Media app</h3>
+                        <p>
+                            The app connects you to the talented people around the world.
+                            Download it from play store or App store.
+                        </p>
+                        <a href="C:\Users\yosha\Desktop\PROJECTS\sm_app\index.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="Work 2">
+                    <div class="layer">
+                        <h3>Music Player app</h3>
+                        <p>
+                            Get all tracks from talented artists around the world for free.
+                            Download it from play store or App store.
+                        </p>
+                        <a href="C:\Users\yosha\Desktop\PROJECTS\music_player\index.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                
+
+<!--------------------------display when show more ------------------------------------------------------------------------>
+
+
+                <div class="work work2">
+                    <img src="images/work-4.jpg" alt="Work 4" class="work-4">
+                    <div class="layer">
+                        <h3>Weather Forecast App</h3>
+                        <p>
+                            Get weather report of any area in just one click . 
+                        </p>
+                        <a href="C:\Users\yosha\Desktop\PROJECTS\weather\index.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work work2">
+                    <img src="images/work-5.jpg" alt="Work 5" class="work-4">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>
+                            Get all your calculations done within seconds.
+                        </p>
+                        <a href="C:\Users\yosha\Desktop\PROJECTS\calculator\index.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work work2">
+                    <img src="images/work-6.png" alt="Work 1" class="work-4">
+                    <div class="layer">
+                        <h3>TO DO LIST</h3>
+                        <p>
+                            Plan your day to get most out of it by TO DO LIST Manager .
+                        </p>
+                        <a href="C:\Users\yosha\Desktop\PROJECTS\todo\index.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn" id="sm">See more</a>
+
+        </div>
+    </div>
+
+<!-- ------------------------------------------------------------------Contact------------------------------------------------------------------ -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>  yoshankgoyal2019@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +919306810322</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/Yoshank9?t=C9fVD4QpjzDTOn1SA6Txiw&s=09" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/yoshank" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2" target="_blank">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © Yoshank. Made wtih <i class="fa-solid fa-heart"></i> by Yoshank</p> 
+        </div>
+
+    </div>
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzvjeUFxQLv86oRXw6Gp7yrkHr-HnSSmenx5OthjCxM3Kq2WTolNRh3QQ-5l84eJJYBeg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault();
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      <script>
+
+        const work2 = document.querySelectorAll('.work2');
+        const sm = document.getElementById("sm");
+
+        
+        sm.addEventListener('click',(e)=>{
+            e.preventDefault();
+            
+            for(item of work2){
+                if(item.style.display == "inline"){
+                    item.style.display = "none";
+                    e.target.innerHTML = "See more";
+                }else{
+                    item.style.display = "inline";
+                    e.target.innerHTML = "See less";
+                }
+            }
+        })
+        
+      </script>
+      
+</body>
+
+</html>
