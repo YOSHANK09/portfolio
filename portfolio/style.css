@@ -427,9 +427,11 @@ nav .fa-solid{
 @media only screen and (max-width: 600px){
     .header-text{
         margin-top: 100%;
-        font-size: 16px;
+        font-size: 20px;
+        text-align: center;
     }
     .header-text h1{
+        text-align: center;
         font-size: 30px;
     }
     nav .fa-solid{
@@ -470,6 +472,7 @@ nav .fa-solid{
         flex-basis: 100%;
     }
     .about-col-1{
+        margin-top: 500px;
         margin-bottom: 30px;
     }
     .about-col-2{
@@ -480,9 +483,6 @@ nav .fa-solid{
         margin-right: 20px;
     }
     .contact-left, .contact-right{
-        flex-basis: 100%;
-    }
-    .copyright{
         font-size: 14px;
     }
 
