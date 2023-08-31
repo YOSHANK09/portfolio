@@ -235,11 +235,13 @@ nav ul{
 
 .services-list div a:hover{
     color: #080808;
+    border-color: #080808;
 }
 
 .Learn{
     border: 3px solid white;
-    padding: 3px;
+    padding: 7px;
+    border-radius: 15px;
 }
 
 /* ----------------------------------------------------------------------Portfolio---------------------------------------------------------------------- */
