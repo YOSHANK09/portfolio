@@ -10,7 +10,7 @@ html{
 }
 
 body{
-    background: #080808;
+    background:  #080808;
     color: #fff;
 }
 
@@ -20,15 +20,19 @@ body{
 }
 
 .container{
-    padding: 10px 10%;
+    padding: 0 10% 10px 10%;
 }
 
 nav{
     display: flex;
     align-items: center;
+    padding: 14px 130px;
     justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 21px;
+    position: fixed;
+    background-color:  #080808;
+    background-position: fixed;
+    width: 100%;
+    z-index: 10;
 }
 
 .logo{
@@ -39,7 +43,7 @@ nav{
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin: 10px 20px;
+    margin: 10px 17px;
 }
 
 nav ul li a{
@@ -77,7 +81,12 @@ nav ul{
 
 .header-text{
     margin-top: 20%;
-    font-size: 30px;
+    font-size: 20px;
+}
+
+.header-text p{
+    font-family: "Lucida Calligraphy";
+    word-wrap: break-word;
 }
 
 .header-text h1{
@@ -90,10 +99,10 @@ nav ul{
 }
 
 .pics{
-    margin: 27px 10px;
+    margin: 70px 0px;
     height: 600px;
     width: 600px;
-    filter: drop-shadow(0px 0px 30px rgb(103, 98, 98) );
+    filter: drop-shadow(0px 0px 20px rgb(103, 98, 98) );
 }
 
 /* ----------------------------------------------ABOUT------------------------------------------------- */
