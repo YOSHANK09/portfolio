@@ -185,12 +185,12 @@ nav ul{
 
 .tab-contents ul li{
     list-style: none;
-    margin: 10px 0;
+    margin: 17px 0;
 }
 
 .tab-contents ul li span{
     color: #b5476b;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .tab-contents{
@@ -201,12 +201,24 @@ nav ul{
     display: block;
 }
 
-#webexp{
+
+#javaexp a {
+    color: var(--secondary-color); 
     text-decoration: none;
 }
 
-#javaexp{
-    text-decoration: none;
+#webexp a {
+    margin-top: 5px;
+    color: var(--secondary-color);
+    text-decoration: none; 
+}
+
+#javaexp a:hover{
+    color: #b5476b; 
+}
+
+#webexp a:hover{
+    color: #b5476b;
 }
 
 /* -------------------------------------------------------------------Services------------------------------------------------------------------- */
